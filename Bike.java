@@ -9,8 +9,8 @@
    public int cadense = 0;
 
    // constructor
-   public Bike(final String color, final int maxSpeed) {
-     super(color, maxSpeed);
+   public Bike(String color, int maxSpeed, int tire) {
+     super(color, maxSpeed, tire);
    }
 
    // getters

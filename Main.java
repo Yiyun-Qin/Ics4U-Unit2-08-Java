@@ -8,7 +8,7 @@
 public class Main {
   // main program
   public static void main(String[] args) {
-    Bike bmx = new Bike("Red", 40);
+    Bike bmx = new Bike("Red", 40, 2);
 
     System.out.println("Created Bmx bike.\nStatus:\n");
     bmx.status();
@@ -24,7 +24,7 @@ public class Main {
     System.out.println("\nRing bell.");
     bmx.ringBell();
 
-    Truck bigTruck = new Truck("Grey", 200, "HGC-3456F");
+    Truck bigTruck = new Truck("Grey", 200, 4, "HGC-3456F");
 
     System.out.println("Created a Truck.\nStatus:\n");
     bigTruck.status();

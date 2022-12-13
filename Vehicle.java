@@ -10,11 +10,13 @@ public class Vehicle {
   public String color;
   protected int speedCar = 0;
   private final int maxinumSpeed;
+  private int tireNum;
 
   // constructor
-  public Vehicle (String color, int maxSpeed) {
+  public Vehicle (String color, int maxSpeed, int tire) {
     this.color = color;
     this.maxinumSpeed = maxSpeed;
+    this.tireNum = tire;
   }
 
   // getters
@@ -22,6 +24,7 @@ public class Vehicle {
     System.out.println(" -> Speed: " + this.speedCar);
     System.out.println(" -> MaxSpeed: " + this.maxinumSpeed);
     System.out.println(" -> Color: " + this.color);
+    System.out.println(" -> Tire Number: " + this.tireNum);
   }
 
   // setters

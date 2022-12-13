@@ -11,8 +11,8 @@
  
    // constructor
  
-   public Truck (String color, int speed, String license) {
-     super(color, speed);
+   public Truck (String color, int speed, int tire, String license) {
+     super(color, speed, tire);
      this.licensePlateNumber = license;
    }
  
